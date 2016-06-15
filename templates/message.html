@@ -1,0 +1,4 @@
+<div class="message alert alert-info alert-dismissible fade in" id="m{{ message['id'] }}">
+  <span href="#" class="close clicks-disabled" data-dismiss="alert" aria-label="close">&times;</span>
+  {% module linkify(message["body"]) %}
+</div>

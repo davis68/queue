@@ -1,0 +1,2 @@
+course = "CS 101"
+session = "Lab"  #Lab or Office Hours
