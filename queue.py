@@ -151,7 +151,7 @@ def parse_config_file():
                 # yes, this is super dangerous; yes, I don't care right now
         return course, session
     except:
-        return "Unspecified", "Unspecified"
+        return "Unspecified course", "Unspecified session"
 
 
 def main():
