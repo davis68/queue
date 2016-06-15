@@ -1,6 +1,6 @@
 # queue
 
-Queue is a lightweight [tornado]()-based webapp to provide a simple queue for students in office hours, help sections, or lab sections.
+Queue is a lightweight [tornado](https://github.com/tornadoweb/tornado/)-based webapp to provide a simple queue for students in office hours, help sections, or lab sections.
 
 Execution is simple:
 
