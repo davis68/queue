@@ -7,7 +7,7 @@ case "ps x | grep -v grep | grep -c 'queue.py'" in
 0)  echo "Restarting Queue:     $(date)" >> $HOME/queue.log
     nohup python $QUEUE_HOME/queue.py &
     ;;
-1)  # all ok
+*)  # all ok
     ;;
 #*)  echo "Removed double Queue: $(date)" >> $HOME/queue.log
 #    kill $(pidof python | awk '{print $1}')
